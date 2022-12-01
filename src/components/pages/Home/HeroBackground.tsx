@@ -25,6 +25,11 @@ const Title = styled('h1')({
   fontWeight: 'bold',
   fontSize: 'var(--fs-xxl)',
   textAlign: 'center',
+  animation: 'fadein 4s',
+  '@keyframes fadein': {
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+  },
 });
 
 function Background() {

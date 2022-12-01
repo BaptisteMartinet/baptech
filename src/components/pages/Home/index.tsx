@@ -7,6 +7,11 @@ const Page = styled('div')({
   width: '100%',
   height: '100vh',
   padding: '3em',
+  animation: 'fadein 2s',
+  '@keyframes fadein': {
+    from: { opacity: 0 },
+    to: { opacity: 1 },
+  },
   '@media (max-width: 960px)': {
     padding: '2em',
     paddingBottom: '4em',
