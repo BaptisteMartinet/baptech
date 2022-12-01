@@ -17,12 +17,14 @@ const Container = styled('div')({
 
 function Home() {
   return (
-    <Page>
-      <Container>
-        <HeroBackground />
-        <Overlay />
-      </Container>
-    </Page>
+    <main>
+      <Page>
+        <Container>
+          <HeroBackground />
+          <Overlay />
+        </Container>
+      </Page>
+    </main>
   );
 }
 
