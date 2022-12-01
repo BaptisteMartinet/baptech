@@ -61,7 +61,7 @@ function Hero() {
         <span>Paris, France</span>
         🥐.
         <br />
-        I&apos;m fluent in both French and English.
+        Fluent in French and English.
         <br />
         {'I build backends with '}
         <a href="https://graphql.org/">GraphQL</a>
