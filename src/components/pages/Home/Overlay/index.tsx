@@ -12,6 +12,7 @@ const Container = styled('div')({
   gridTemplateColumns: 'repeat(2, 1fr)',
   '@media (max-width: 960px)': {
     gridTemplateColumns: 'repeat(1, 1fr)',
+    gridRowGap: '1rem',
   },
 });
 
