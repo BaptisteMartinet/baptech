@@ -15,6 +15,7 @@ const Corner = styled('img')({
   position: 'absolute',
   top: 0,
   left: 0,
+  zIndex: -1,
   '@media (max-width: 960px)': {
     width: '100px',
   },
@@ -31,11 +32,13 @@ function Background() {
     <Container>
       <Corner src={CornerImage} alt="Corner" />
       <Title>
-        research.
+        think.
         <br />
-        build.
+        craft.
         <br />
         deploy.
+        <br />
+        scale.
       </Title>
     </Container>
   );
