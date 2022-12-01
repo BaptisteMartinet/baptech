@@ -15,6 +15,7 @@ const Container = styled('div')({
 
 const List = styled('ul')({
   margin: 0,
+  padding: 0,
   listStyle: 'none',
   display: 'flex',
   '& li': {
