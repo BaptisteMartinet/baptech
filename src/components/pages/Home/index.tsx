@@ -7,6 +7,9 @@ const Page = styled('div')({
   width: '100%',
   height: '100vh',
   padding: '3em',
+  '@media (max-width: 960px)': {
+    padding: '2em',
+  },
 });
 
 const Container = styled('div')({
