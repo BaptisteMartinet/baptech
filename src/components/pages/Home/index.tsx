@@ -5,7 +5,7 @@ import Overlay from './Overlay';
 
 const Page = styled('div')({
   width: '100%',
-  height: '100vh',
+  height: '100vmin',
   padding: '3em',
   '@media (max-width: 960px)': {
     padding: '2em',
