@@ -28,8 +28,8 @@ function Socials() {
     <Container>
       <List>
         <li><a href="mailto:baptiste.martinet@epitech.eu" aria-label="Email link"><Email fontSize="large" /></a></li>
-        <li><a href="https://www.linkedin.com/in/baptiste-martinet/" aria-label="LinkedIn link"><LinkedIn fontSize="large" /></a></li>
-        <li><a href="https://github.com/BaptisteMartinet" aria-label="Github link"><GitHub fontSize="large" /></a></li>
+        <li><a href="https://www.linkedin.com/in/baptiste-martinet/" target="_blanck" aria-label="LinkedIn link"><LinkedIn fontSize="large" /></a></li>
+        <li><a href="https://github.com/BaptisteMartinet" target="_blanck" aria-label="Github link"><GitHub fontSize="large" /></a></li>
       </List>
     </Container>
   );
