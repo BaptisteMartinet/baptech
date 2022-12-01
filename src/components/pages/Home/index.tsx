@@ -10,7 +10,7 @@ const Page = styled('div')({
   animation: 'fadein ease 2s',
   '@media (max-width: 960px)': {
     padding: '2em',
-    paddingBottom: '4em',
+    paddingBottom: '6em', // Fix mobile devices handling vh weirdly
   },
 });
 
