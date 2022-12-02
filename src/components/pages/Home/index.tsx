@@ -5,12 +5,11 @@ import Overlay from './Overlay';
 
 const Page = styled('div')({
   width: '100%',
-  height: '100vh',
+  height: '100dvh',
   padding: '3em',
   animation: 'fadein ease 2s',
   '@media (max-width: 960px)': {
     padding: '2em',
-    paddingBottom: '6em', // Fix mobile devices handling vh weirdly
   },
 });
 
