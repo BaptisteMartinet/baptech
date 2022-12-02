@@ -13,6 +13,7 @@ const Corner = styled('img')({
   top: 0,
   left: 0,
   zIndex: -1,
+  userSelect: 'none',
   '@media (max-width: 960px)': {
     width: '100px',
   },
