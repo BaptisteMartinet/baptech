@@ -54,7 +54,7 @@ function Hero() {
       </Title>
       <SubTitle>
         Full Stack
-        <span> developer</span>
+        <span> software engineer</span>
       </SubTitle>
       <Info>
         {'Freelance developer based in '}
