@@ -61,6 +61,10 @@ function Hero() {
         <span>Paris, France</span>
         🥐.
         <br />
+        {'5th year '}
+        <a href="https://www.epitech.eu/">Epitech</a>
+        {' student.'}
+        <br />
         Fluent in French and English.
         <br />
         {'I build backends with '}
@@ -70,10 +74,9 @@ function Hero() {
         {', and mobile apps with '}
         <a href="https://reactnative.dev/">React Native</a>
         .
-        <br />
-        {'I mastered in Computer Science at '}
+        {/* {'I mastered in Computer Science at '}
         <a href="https://www.epitech.eu/">Epitech</a>
-        {' in 2023.'}
+        {' in 2023.'} */}
       </Info>
       <a href="https://www.malt.fr/profile/baptistemartinet" target="_blanck">
         <Button variant="contained">hire me</Button>
