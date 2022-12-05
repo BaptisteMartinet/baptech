@@ -75,8 +75,8 @@ function Hero() {
         <a href="https://www.epitech.eu/">Epitech</a>
         {' in 2023.'}
       </Info>
-      <a href="https://github.com/BaptisteMartinet?tab=repositories" target="_blanck">
-        <Button variant="contained">view my projects</Button>
+      <a href="https://www.malt.fr/profile/baptistemartinet" target="_blanck">
+        <Button variant="contained">hire me</Button>
       </a>
     </Container>
   );
