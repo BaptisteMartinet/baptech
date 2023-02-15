@@ -59,7 +59,7 @@ function Hero() {
       <Info>
         {'Freelance developer based in '}
         <span>Paris, France</span>
-        🥐.
+        {' 🥐.'}
         <br />
         {'5th year '}
         <a href="https://www.epitech.eu/">Epitech</a>
